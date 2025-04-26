@@ -7,36 +7,38 @@
     <title>AI Term of Endearment Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Term of Endearment Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Term of Endearment Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a word you want to include"
+            required
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="term" id="term-placement"></div>
+      </main>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a word you want to include"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div></div>
-    </main>
-
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/ayehfard" target="_blank">Ayeh Fard</a>. It is
-      <a
-        href="https://github.com/ayehfard/ai-endearment-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and hosted on
-      <a href="https://ai-endearment-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/ayehfard" target="_blank">Ayeh Fard</a>. It
+        is
+        <a
+          href="https://github.com/ayehfard/ai-endearment-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and hosted on
+        <a href="https://ai-endearment-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
