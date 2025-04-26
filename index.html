@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Term of Endearment Generator</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>Term of Endearment Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="term-form">
           <input
             type="text"
             placeholder="Enter a word you want to include"
@@ -21,7 +22,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="term" id="term-placement"></div>
+        <div class="term" id="term"></div>
       </main>
 
       <footer>
